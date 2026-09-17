@@ -1,7 +1,7 @@
 🚢 SurvivalScope
 A machine learning app that predicts a passenger's chance of surviving the Titanic disaster, built with scikit-learn and served through an interactive Streamlit interface.
 
-🔗 Live app: survivalscope-z6yd4npcygwt2bsm9zry5y.streamlit.app
+🔗 Live app: https://survivalscope-z6yd4npcygwt2bsm9zry5y.streamlit.app
 
 Overview
 SurvivalScope trains a Random Forest classifier on the classic Titanic dataset (via seaborn) using a leak-free, production-style scikit-learn pipeline — imputation, encoding, and scaling are all bundled with the model itself, so the exact same preprocessing runs both at training time and when a user submits data through the app.
